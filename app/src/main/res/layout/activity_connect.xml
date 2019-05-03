@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ConnectActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/clav"
+
+        ></LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+
+
+
+        >
+
+
+        <EditText
+            android:id="@+id/emailC"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:background="@drawable/btn2_background"
+            android:hint="  Email"
+            android:inputType="text"
+            android:textColor="#001B87"
+            android:textColorHint="@color/colorPrimaryDark"
+
+            />
+        <EditText
+            android:gravity="center"
+            android:id="@+id/passwordC"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn2_background"
+            android:hint="  Mot De Passe"
+            android:inputType="textPassword"
+            android:textColor="#183152"
+            android:textColorHint="@color/colorPrimaryDark"
+
+            />
+
+        <Button
+            android:id="@+id/btnconnect"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Connexion"
+            android:textColor="#001B87"
+            android:background="@drawable/btn_background" />
+
+        <TextView
+            android:id="@+id/textinscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/noir"
+            android:text="Vous n'êtes pas encore inscrit?inscrivez vous ici"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

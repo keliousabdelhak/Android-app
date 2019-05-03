@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+
+
+    tools:context=".InscriptionActivity">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="@drawable/clav"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+
+
+        >
+
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/btn2_background"
+            android:hint="  Saisir Votre Email"
+            android:inputType="text"
+            android:textColor="#001B87"
+            android:textColorHint="@color/colorPrimaryDark"
+
+            />
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn2_background"
+            android:hint="  Votre Mot De Passe"
+            android:inputType="textPassword"
+            android:textColor="#183152"
+            android:textColorHint="@color/colorPrimaryDark"
+
+            />
+
+        <Button
+            android:id="@+id/btndqzazadxqsxd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="Inscription"
+            android:textColor="#001B87" />
+
+        <TextView
+            android:id="@+id/textconnexion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Vous avez déjà un compte ? connectez vous ici"
+            android:textAlignment="center"
+
+            android:textColor="@color/noir" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

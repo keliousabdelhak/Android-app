@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="domaines" >
+        <item>Informatique</item>
+        <item>Mathématique</item>
+        <item>Médecine</item>
+        <item>Pharmacetique</item>
+        <item>Electronique</item>
+    </string-array>
+
+</resources>

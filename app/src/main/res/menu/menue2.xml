@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Menu"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/LogoutMenu"
+                android:title="Déconnexion"
+                app:showAsAction="always">
+
+            </item>
+            <item
+                android:id="@+id/refreshMenu"
+                android:title="Accueil"
+                app:showAsAction="always">
+
+            </item>
+            <item
+                android:id="@+id/searchMenu"
+                android:title="Aller à recherche"
+                app:showAsAction="never">
+
+            </item>
+            <item
+                android:id="@+id/propMenu"
+                android:title="A prppos"
+                app:showAsAction="never">
+
+            </item>
+
+        </menu>
+
+    </item>
+
+
+
+
+
+</menu>

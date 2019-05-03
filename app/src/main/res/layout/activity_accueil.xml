@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.bos.search.AccueilActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Bienvenue Dans Notre Application"
+        android:textSize="25dp"
+        android:textColor="@color/orange"
+        android:textStyle="italic"/>
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/mobile"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Note Application vous aide a trouver vos cours que vous cherchez , sois en PDF ou en Video cliquez sur le Boutton Commencer ! "
+        android:textSize="20dp"
+        android:textColor="@color/orange"/>
+
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="CLIQUEZ POUR COMMENCEZ ! "
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/btn_background"/>
+
+</LinearLayout>
